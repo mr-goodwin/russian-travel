@@ -1,0 +1,32 @@
+div, h1, h2, h3, h4, h5, p, tr, td, ul, li, a, section, img, blockquote, nav {
+  border: red 0.1px solid;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  background-color: rgba(250, 0, 0, .3);
+}
+
+.odin {
+  background-color: rgba(0, 60, 60, .3);
+}
+
+.pictures {
+  background-color: rgba(230, 0, 0, .5);
+}
+
+.tri {
+  background-color: rgba(0, 0, 200, .3);
+}
+
+.baikal {
+  background-color: rgba(250, 0, 250, .3);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, .3);
+}
+

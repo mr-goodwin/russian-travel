@@ -1,4 +1,5 @@
 .footer {
-  min-width: 1280px;
+  position: relative;
+  max-width: 1184px;
   height: 50px;
 }

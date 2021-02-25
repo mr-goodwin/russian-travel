@@ -1,5 +1,7 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/backlighting.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/header/__languages-links/header__languages-links.css);
 @import url(../blocks/footer/footer.css);

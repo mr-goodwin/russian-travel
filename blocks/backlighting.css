@@ -6,7 +6,7 @@ p {
   margin: 0;
 }
 
-.header {
+/* .header {
   background-color: rgba(250, 0, 0, .3);
 }
 
@@ -33,24 +33,23 @@ p {
 .footer {
   background-color: rgba(0, 0, 0, .3);
 }
+*/
 
-
-.gallery {
+/* .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 16px;
-}
+  justify-items: center;
+  align-items: center;
+} */
 
 .gallery__item {
   margin: 0;
   padding: 0;
 }
 
-.gallery__image {
-  max-width: 100%;
-  object-fit: cover;
-}
+
 
 .content {
   max-width: 1184px;
@@ -60,3 +59,5 @@ p {
   align-content: center;
 
 }
+
+

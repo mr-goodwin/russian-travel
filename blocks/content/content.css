@@ -3,4 +3,12 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+      margin: 0;
+      padding: 0;
+  }
 }

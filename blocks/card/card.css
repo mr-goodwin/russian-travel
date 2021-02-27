@@ -1,10 +1,18 @@
 .card {
   display: grid;
   grid-template-columns: minmax(320px, 460px) 1fr;
-  grid-template-rows: content min-content;
+  grid-template-rows: min-content;
   max-width: 1184px;
   justify-content: center;
   margin-bottom: 80px;
   row-gap: 48px;
   column-gap: 3%;
+}
+
+@media screen and (max-width: 676px) {
+  .card {
+      grid-template-columns: 1fr;
+      gap: 32px 0px;
+      margin-bottom: 50px;
+  }
 }

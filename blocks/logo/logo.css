@@ -7,3 +7,9 @@
   align-self: center;
   background-image: url(../../images/__logo.svg);
 }
+
+@media screen and (max-width: 400px) {
+  .logo {
+    max-width: 142px;
+  }
+}

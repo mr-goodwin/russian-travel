@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 767px) {
   .footer__links {
     flex-direction: column;
     justify-content: stretch;

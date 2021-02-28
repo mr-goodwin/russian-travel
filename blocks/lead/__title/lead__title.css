@@ -9,11 +9,14 @@
   padding: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 730px) {
+  .lead__title {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 474px) {
   .lead__title {
     font-size: 2.5em;
   }
 }
-
-
-

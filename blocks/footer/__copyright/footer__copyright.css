@@ -1,5 +1,7 @@
-.footer__autor {
+.footer__copyright {
   font-size: 14px;
   line-height: 1em;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }

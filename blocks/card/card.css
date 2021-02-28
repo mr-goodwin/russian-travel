@@ -9,6 +9,23 @@
   column-gap: 3%;
 }
 
+.card:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .card {
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .card {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content;
+  }
+}
+
 @media screen and (max-width: 676px) {
   .card {
       grid-template-columns: 1fr;

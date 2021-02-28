@@ -10,3 +10,10 @@
   padding: 0;
 }
 
+@media screen and (max-width: 400px) {
+  .header__languages-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+

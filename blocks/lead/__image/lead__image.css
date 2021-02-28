@@ -2,9 +2,21 @@
   width: 100%;
 }
 
+@media screen and (max-width: 800px) {
+.lead__image {
+    width: 116%;
+}
+}
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .lead__image {
-    width: 100vw;
+      width: 106%;
+  }
+  }
+
+  @media screen and (max-width: 320px) {
+    .lead__image {
+        width: 112%;
   }
 }
+

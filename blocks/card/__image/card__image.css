@@ -3,9 +3,47 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .card__image {
-    width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card__image {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .card__image {
+    max-width: 97vw;
+    width: 100vw;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  .card__image {
+    max-width: 96vw;
+    width: 100vw;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .card__image {
+    max-width: 95vw;
+    width: 100vw;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 357px) {
+  .card__image {
+    max-width: 94vw;
+    width: 100vw;
     justify-self: center;
   }
 }

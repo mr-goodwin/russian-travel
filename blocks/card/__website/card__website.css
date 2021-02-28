@@ -3,9 +3,8 @@
   align-self: end;
 }
 
-@media screen and (max-width: 767px) {
-.card__website {
-    width: 90%;
-    margin: auto;
+@media screen and (max-width: 676px) {
+  .card__website {
+      padding-left: 16px;
+    }
   }
-}

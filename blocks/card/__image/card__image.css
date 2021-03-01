@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
   .card__image {
     max-width: 340px;
   }
@@ -41,6 +41,14 @@
 }
 
 @media screen and (max-width: 357px) {
+  .card__image {
+    max-width: 320px;
+    width: 100vw;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .card__image {
     max-width: 94vw;
     width: 100vw;

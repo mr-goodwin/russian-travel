@@ -18,40 +18,7 @@
 
 @media screen and (max-width: 676px) {
   .card__image {
-    max-width: 97vw;
-    width: 100vw;
-    justify-self: center;
-  }
-}
-
-@media screen and (max-width: 534px) {
-  .card__image {
-    max-width: 96vw;
-    width: 100vw;
-    justify-self: center;
-  }
-}
-
-@media screen and (max-width: 402px) {
-  .card__image {
-    max-width: 95vw;
-    width: 100vw;
-    justify-self: center;
-  }
-}
-
-@media screen and (max-width: 357px) {
-  .card__image {
-    max-width: 320px;
-    width: 100vw;
-    justify-self: center;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .card__image {
-    max-width: 94vw;
-    width: 100vw;
+    width: 100%;
     justify-self: center;
   }
 }

@@ -3,9 +3,21 @@
     font-size: 16px;
     line-height: 163%;
     margin: 40px 0 33px 0;
-    padding: 0;
+    padding: 0 0 0 48px;
     max-width: 690px;
     position: relative;
     justify-content: start;
-
 }
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro__text {
+    padding-left: 16px;
+  }
+}
+  

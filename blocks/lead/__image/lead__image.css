@@ -1,23 +1,10 @@
 .lead__image {
-  width: calc(100vw - (48px*2));
+  width: calc(100% - (48px*2));
   max-width: 984px;
 }
 
 @media screen and (max-width: 800px) {
 .lead__image {
-    width: 116%;
+    width: 100%;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .lead__image {
-      width: 106%;
-    }
-  }
-
-  @media screen and (max-width: 320px) {
-    .lead__image {
-        width: 112%;
-  }
-}
-

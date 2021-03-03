@@ -7,12 +7,19 @@
   position: relative;
   z-index: 1;
   margin: 0;
+  padding-left: 48px;
 }
 
+@media screen and (max-width: 768px) {
+  .intro__title {
+    padding-left: 24px;
+  }
+}
 
 @media screen and (max-width: 400px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;
+    padding-left: 16px;
   }
 }
